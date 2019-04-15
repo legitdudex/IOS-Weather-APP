@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DDBD3DD2261A51700860403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBD3DC2261A51700860403 /* AppDelegate.swift */; };
+		3DDBD3DF2261A51700860403 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBD3DE2261A51700860403 /* HomePageVC.swift */; };
+		3DDBD3E22261A51700860403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDBD3E02261A51700860403 /* Main.storyboard */; };
+		3DDBD3E42261A51800860403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DDBD3E32261A51800860403 /* Assets.xcassets */; };
+		3DDBD3E72261A51800860403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDBD3E52261A51800860403 /* LaunchScreen.storyboard */; };
+		3DDBD3F22261A51900860403 /* Meme_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBD3F12261A51900860403 /* Meme_WeatherTests.swift */; };
+		3DDBD3FD2261A51900860403 /* Meme_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBD3FC2261A51900860403 /* Meme_WeatherUITests.swift */; };
+		3DDBD40B2261DF5700860403 /* InsertLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBD40A2261DF5700860403 /* InsertLocationVC.swift */; };
+		3DDBD40E2262E39300860403 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBD40D2262E39300860403 /* Configuration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DDBD3EE2261A51900860403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DDBD3D12261A51700860403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DDBD3D82261A51700860403;
+			remoteInfo = "Meme Weather";
+		};
+		3DDBD3F92261A51900860403 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DDBD3D12261A51700860403 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DDBD3D82261A51700860403;
+			remoteInfo = "Meme Weather";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DDBD3D92261A51700860403 /* Meme Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meme Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DDBD3DC2261A51700860403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DDBD3DE2261A51700860403 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		3DDBD3E12261A51700860403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DDBD3E32261A51800860403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DDBD3E62261A51800860403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DDBD3E82261A51800860403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DDBD3ED2261A51900860403 /* Meme WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meme WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DDBD3F12261A51900860403 /* Meme_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme_WeatherTests.swift; sourceTree = "<group>"; };
+		3DDBD3F32261A51900860403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DDBD3F82261A51900860403 /* Meme WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meme WeatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DDBD3FC2261A51900860403 /* Meme_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme_WeatherUITests.swift; sourceTree = "<group>"; };
+		3DDBD3FE2261A51900860403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DDBD40A2261DF5700860403 /* InsertLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertLocationVC.swift; sourceTree = "<group>"; };
+		3DDBD40D2262E39300860403 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DDBD3D62261A51700860403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDBD3EA2261A51900860403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDBD3F52261A51900860403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DDBD3D02261A51700860403 = {
+			isa = PBXGroup;
+			children = (
+				3DDBD3DB2261A51700860403 /* Meme Weather */,
+				3DDBD3F02261A51900860403 /* Meme WeatherTests */,
+				3DDBD3FB2261A51900860403 /* Meme WeatherUITests */,
+				3DDBD3DA2261A51700860403 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DDBD3DA2261A51700860403 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DDBD3D92261A51700860403 /* Meme Weather.app */,
+				3DDBD3ED2261A51900860403 /* Meme WeatherTests.xctest */,
+				3DDBD3F82261A51900860403 /* Meme WeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DDBD3DB2261A51700860403 /* Meme Weather */ = {
+			isa = PBXGroup;
+			children = (
+				3DDBD40C2262E36F00860403 /* Configuration */,
+				3DDBD3DC2261A51700860403 /* AppDelegate.swift */,
+				3DDBD3DE2261A51700860403 /* HomePageVC.swift */,
+				3DDBD40A2261DF5700860403 /* InsertLocationVC.swift */,
+				3DDBD3E02261A51700860403 /* Main.storyboard */,
+				3DDBD3E32261A51800860403 /* Assets.xcassets */,
+				3DDBD3E52261A51800860403 /* LaunchScreen.storyboard */,
+				3DDBD3E82261A51800860403 /* Info.plist */,
+			);
+			path = "Meme Weather";
+			sourceTree = "<group>";
+		};
+		3DDBD3F02261A51900860403 /* Meme WeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DDBD3F12261A51900860403 /* Meme_WeatherTests.swift */,
+				3DDBD3F32261A51900860403 /* Info.plist */,
+			);
+			path = "Meme WeatherTests";
+			sourceTree = "<group>";
+		};
+		3DDBD3FB2261A51900860403 /* Meme WeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DDBD3FC2261A51900860403 /* Meme_WeatherUITests.swift */,
+				3DDBD3FE2261A51900860403 /* Info.plist */,
+			);
+			path = "Meme WeatherUITests";
+			sourceTree = "<group>";
+		};
+		3DDBD40C2262E36F00860403 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3DDBD40D2262E39300860403 /* Configuration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DDBD3D82261A51700860403 /* Meme Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDBD4012261A51900860403 /* Build configuration list for PBXNativeTarget "Meme Weather" */;
+			buildPhases = (
+				3DDBD3D52261A51700860403 /* Sources */,
+				3DDBD3D62261A51700860403 /* Frameworks */,
+				3DDBD3D72261A51700860403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meme Weather";
+			productName = "Meme Weather";
+			productReference = 3DDBD3D92261A51700860403 /* Meme Weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DDBD3EC2261A51900860403 /* Meme WeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDBD4042261A51900860403 /* Build configuration list for PBXNativeTarget "Meme WeatherTests" */;
+			buildPhases = (
+				3DDBD3E92261A51900860403 /* Sources */,
+				3DDBD3EA2261A51900860403 /* Frameworks */,
+				3DDBD3EB2261A51900860403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DDBD3EF2261A51900860403 /* PBXTargetDependency */,
+			);
+			name = "Meme WeatherTests";
+			productName = "Meme WeatherTests";
+			productReference = 3DDBD3ED2261A51900860403 /* Meme WeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DDBD3F72261A51900860403 /* Meme WeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDBD4072261A51900860403 /* Build configuration list for PBXNativeTarget "Meme WeatherUITests" */;
+			buildPhases = (
+				3DDBD3F42261A51900860403 /* Sources */,
+				3DDBD3F52261A51900860403 /* Frameworks */,
+				3DDBD3F62261A51900860403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DDBD3FA2261A51900860403 /* PBXTargetDependency */,
+			);
+			name = "Meme WeatherUITests";
+			productName = "Meme WeatherUITests";
+			productReference = 3DDBD3F82261A51900860403 /* Meme WeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DDBD3D12261A51700860403 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kang-hee Cho";
+				TargetAttributes = {
+					3DDBD3D82261A51700860403 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3DDBD3EC2261A51900860403 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3DDBD3D82261A51700860403;
+					};
+					3DDBD3F72261A51900860403 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3DDBD3D82261A51700860403;
+					};
+				};
+			};
+			buildConfigurationList = 3DDBD3D42261A51700860403 /* Build configuration list for PBXProject "Meme Weather" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DDBD3D02261A51700860403;
+			productRefGroup = 3DDBD3DA2261A51700860403 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DDBD3D82261A51700860403 /* Meme Weather */,
+				3DDBD3EC2261A51900860403 /* Meme WeatherTests */,
+				3DDBD3F72261A51900860403 /* Meme WeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DDBD3D72261A51700860403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDBD3E72261A51800860403 /* LaunchScreen.storyboard in Resources */,
+				3DDBD3E42261A51800860403 /* Assets.xcassets in Resources */,
+				3DDBD3E22261A51700860403 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDBD3EB2261A51900860403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDBD3F62261A51900860403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DDBD3D52261A51700860403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDBD40B2261DF5700860403 /* InsertLocationVC.swift in Sources */,
+				3DDBD3DF2261A51700860403 /* HomePageVC.swift in Sources */,
+				3DDBD40E2262E39300860403 /* Configuration.swift in Sources */,
+				3DDBD3DD2261A51700860403 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDBD3E92261A51900860403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDBD3F22261A51900860403 /* Meme_WeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDBD3F42261A51900860403 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDBD3FD2261A51900860403 /* Meme_WeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DDBD3EF2261A51900860403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DDBD3D82261A51700860403 /* Meme Weather */;
+			targetProxy = 3DDBD3EE2261A51900860403 /* PBXContainerItemProxy */;
+		};
+		3DDBD3FA2261A51900860403 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DDBD3D82261A51700860403 /* Meme Weather */;
+			targetProxy = 3DDBD3F92261A51900860403 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DDBD3E02261A51700860403 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DDBD3E12261A51700860403 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DDBD3E52261A51800860403 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DDBD3E62261A51800860403 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DDBD3FF2261A51900860403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DDBD4002261A51900860403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DDBD4022261A51900860403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meme Weather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KHC.Meme-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DDBD4032261A51900860403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meme Weather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KHC.Meme-Weather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DDBD4052261A51900860403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meme WeatherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KHC.Meme-WeatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meme Weather.app/Meme Weather";
+			};
+			name = Debug;
+		};
+		3DDBD4062261A51900860403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meme WeatherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KHC.Meme-WeatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meme Weather.app/Meme Weather";
+			};
+			name = Release;
+		};
+		3DDBD4082261A51900860403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meme WeatherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KHC.Meme-WeatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meme Weather";
+			};
+			name = Debug;
+		};
+		3DDBD4092261A51900860403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Meme WeatherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KHC.Meme-WeatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Meme Weather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DDBD3D42261A51700860403 /* Build configuration list for PBXProject "Meme Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDBD3FF2261A51900860403 /* Debug */,
+				3DDBD4002261A51900860403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDBD4012261A51900860403 /* Build configuration list for PBXNativeTarget "Meme Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDBD4022261A51900860403 /* Debug */,
+				3DDBD4032261A51900860403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDBD4042261A51900860403 /* Build configuration list for PBXNativeTarget "Meme WeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDBD4052261A51900860403 /* Debug */,
+				3DDBD4062261A51900860403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDBD4072261A51900860403 /* Build configuration list for PBXNativeTarget "Meme WeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDBD4082261A51900860403 /* Debug */,
+				3DDBD4092261A51900860403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DDBD3D12261A51700860403 /* Project object */;
+}
