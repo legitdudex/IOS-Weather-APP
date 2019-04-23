@@ -20,8 +20,11 @@ class InsertLocationVC: UIViewController, UISearchBarDelegate, UITableViewDelega
     @IBOutlet weak var CancelButton: UIBarButtonItem!
     @IBOutlet weak var LocationSearchBar: UISearchBar!
     
+    var placemarkArray: [CLPlacemark] = []
+    var selectedPlacemark: CLPlacemark!
     var ourLocation: String! //to return to the main view
     var LocationSuggestions: [String] = [] //to store all suggestions
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,7 +47,7 @@ class InsertLocationVC: UIViewController, UISearchBarDelegate, UITableViewDelega
     //search button was clicked so set the parameter we want to return to the previous view
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         OurTableView.isHidden = true
-        ourLocation = searchBar.text //set our location text
+        ourLocation = LocationSearchBar.text //set our location text
         searchBar.resignFirstResponder() // hide the keyboard after search tapped
     }
     
@@ -68,6 +71,7 @@ class InsertLocationVC: UIViewController, UISearchBarDelegate, UITableViewDelega
 //Table View Delegator Functions
     func addDataToTableArray(placemarks: [CLPlacemark]){ //we put all our relevant locations returned by geolocaiton into the array that the table will use to reload
         self.deleteTableData()
+        placemarkArray.removeAll()
         for placemark: CLPlacemark in placemarks{
             var combinationString = ""
             if(placemark.subLocality != nil){
@@ -87,6 +91,7 @@ class InsertLocationVC: UIViewController, UISearchBarDelegate, UITableViewDelega
             }
             if(combinationString != ""){
                 LocationSuggestions.append(combinationString)
+                placemarkArray.append(placemark)
             }
         }
         self.updateTableData()
@@ -117,6 +122,7 @@ class InsertLocationVC: UIViewController, UISearchBarDelegate, UITableViewDelega
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         LocationSearchBar.text = LocationSuggestions[indexPath.row]
         self.searchBarSearchButtonClicked(LocationSearchBar)
+        selectedPlacemark = placemarkArray[indexPath.row]
         tableView.isHidden = true
     }
     

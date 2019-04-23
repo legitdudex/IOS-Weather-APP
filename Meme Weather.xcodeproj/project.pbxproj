@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DB1CA4322678643000C15A6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB1CA4222678643000C15A6 /* AVFoundation.framework */; };
+		3DB1CA452267864A000C15A6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB1CA442267864A000C15A6 /* CoreMedia.framework */; };
+		3DB1CA4722678651000C15A6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB1CA4622678651000C15A6 /* CoreMotion.framework */; };
+		3DB1CA4922678665000C15A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB1CA4822678665000C15A6 /* SystemConfiguration.framework */; };
+		3DB1CA4B22678671000C15A6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB1CA4A22678671000C15A6 /* OpenGLES.framework */; };
+		3DB1CA5022678765000C15A6 /* upload-dsym.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3DB1CA4D22678765000C15A6 /* upload-dsym.sh */; };
+		3DB1CA5122678765000C15A6 /* libTestFairy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB1CA4E22678765000C15A6 /* libTestFairy.a */; };
+		3DB1CA5822678B43000C15A6 /* NSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB1CA5722678B43000C15A6 /* NSLog.swift */; };
 		3DDBD3DD2261A51700860403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBD3DC2261A51700860403 /* AppDelegate.swift */; };
 		3DDBD3DF2261A51700860403 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBD3DE2261A51700860403 /* HomePageVC.swift */; };
 		3DDBD3E22261A51700860403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDBD3E02261A51700860403 /* Main.storyboard */; };
@@ -15,7 +23,6 @@
 		3DDBD3F22261A51900860403 /* Meme_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBD3F12261A51900860403 /* Meme_WeatherTests.swift */; };
 		3DDBD3FD2261A51900860403 /* Meme_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBD3FC2261A51900860403 /* Meme_WeatherUITests.swift */; };
 		3DDBD40B2261DF5700860403 /* InsertLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBD40A2261DF5700860403 /* InsertLocationVC.swift */; };
-		3DDBD40E2262E39300860403 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDBD40D2262E39300860403 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DB1CA4222678643000C15A6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3DB1CA442267864A000C15A6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3DB1CA4622678651000C15A6 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		3DB1CA4822678665000C15A6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3DB1CA4A22678671000C15A6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3DB1CA4D22678765000C15A6 /* upload-dsym.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-dsym.sh"; sourceTree = "<group>"; };
+		3DB1CA4E22678765000C15A6 /* libTestFairy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFairy.a; sourceTree = "<group>"; };
+		3DB1CA4F22678765000C15A6 /* TestFairy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFairy.h; sourceTree = "<group>"; };
+		3DB1CA5222678811000C15A6 /* Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+		3DB1CA5722678B43000C15A6 /* NSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLog.swift; sourceTree = "<group>"; };
 		3DDBD3D92261A51700860403 /* Meme Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meme Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDBD3DC2261A51700860403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DDBD3DE2261A51700860403 /* HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
@@ -50,7 +67,6 @@
 		3DDBD3FC2261A51900860403 /* Meme_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme_WeatherUITests.swift; sourceTree = "<group>"; };
 		3DDBD3FE2261A51900860403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DDBD40A2261DF5700860403 /* InsertLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertLocationVC.swift; sourceTree = "<group>"; };
-		3DDBD40D2262E39300860403 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB1CA4B22678671000C15A6 /* OpenGLES.framework in Frameworks */,
+				3DB1CA5122678765000C15A6 /* libTestFairy.a in Frameworks */,
+				3DB1CA4922678665000C15A6 /* SystemConfiguration.framework in Frameworks */,
+				3DB1CA4722678651000C15A6 /* CoreMotion.framework in Frameworks */,
+				3DB1CA452267864A000C15A6 /* CoreMedia.framework in Frameworks */,
+				3DB1CA4322678643000C15A6 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DB1CA4122678643000C15A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DB1CA4A22678671000C15A6 /* OpenGLES.framework */,
+				3DB1CA4822678665000C15A6 /* SystemConfiguration.framework */,
+				3DB1CA4622678651000C15A6 /* CoreMotion.framework */,
+				3DB1CA442267864A000C15A6 /* CoreMedia.framework */,
+				3DB1CA4222678643000C15A6 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DB1CA4C22678765000C15A6 /* TestFairySDK-1.19.3 */ = {
+			isa = PBXGroup;
+			children = (
+				3DB1CA4D22678765000C15A6 /* upload-dsym.sh */,
+				3DB1CA4E22678765000C15A6 /* libTestFairy.a */,
+				3DB1CA4F22678765000C15A6 /* TestFairy.h */,
+			);
+			path = "TestFairySDK-1.19.3";
+			sourceTree = "<group>";
+		};
 		3DDBD3D02261A51700860403 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,7 @@
 				3DDBD3F02261A51900860403 /* Meme WeatherTests */,
 				3DDBD3FB2261A51900860403 /* Meme WeatherUITests */,
 				3DDBD3DA2261A51700860403 /* Products */,
+				3DB1CA4122678643000C15A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +146,7 @@
 		3DDBD3DB2261A51700860403 /* Meme Weather */ = {
 			isa = PBXGroup;
 			children = (
-				3DDBD40C2262E36F00860403 /* Configuration */,
+				3DB1CA4C22678765000C15A6 /* TestFairySDK-1.19.3 */,
 				3DDBD3DC2261A51700860403 /* AppDelegate.swift */,
 				3DDBD3DE2261A51700860403 /* HomePageVC.swift */,
 				3DDBD40A2261DF5700860403 /* InsertLocationVC.swift */,
@@ -109,6 +154,8 @@
 				3DDBD3E32261A51800860403 /* Assets.xcassets */,
 				3DDBD3E52261A51800860403 /* LaunchScreen.storyboard */,
 				3DDBD3E82261A51800860403 /* Info.plist */,
+				3DB1CA5222678811000C15A6 /* Bridging.h */,
+				3DB1CA5722678B43000C15A6 /* NSLog.swift */,
 			);
 			path = "Meme Weather";
 			sourceTree = "<group>";
@@ -129,14 +176,6 @@
 				3DDBD3FE2261A51900860403 /* Info.plist */,
 			);
 			path = "Meme WeatherUITests";
-			sourceTree = "<group>";
-		};
-		3DDBD40C2262E36F00860403 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				3DDBD40D2262E39300860403 /* Configuration.swift */,
-			);
-			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +284,7 @@
 			files = (
 				3DDBD3E72261A51800860403 /* LaunchScreen.storyboard in Resources */,
 				3DDBD3E42261A51800860403 /* Assets.xcassets in Resources */,
+				3DB1CA5022678765000C15A6 /* upload-dsym.sh in Resources */,
 				3DDBD3E22261A51700860403 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +311,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DDBD40B2261DF5700860403 /* InsertLocationVC.swift in Sources */,
+				3DB1CA5822678B43000C15A6 /* NSLog.swift in Sources */,
 				3DDBD3DF2261A51700860403 /* HomePageVC.swift in Sources */,
-				3DDBD40E2262E39300860403 /* Configuration.swift in Sources */,
 				3DDBD3DD2261A51700860403 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +424,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -438,6 +479,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -448,16 +490,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 63UU8W8PRS;
 				INFOPLIST_FILE = "Meme Weather/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Meme\\ Weather/TestFairySDK-1.19.3",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KHC.Meme-Weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "AD-HOC";
+				SKIP_INSTALL = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kang/Library/Autosave Information/Meme Weather/Meme Weather/Bridging.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7s armv7";
 			};
 			name = Debug;
 		};
@@ -465,16 +517,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 63UU8W8PRS;
 				INFOPLIST_FILE = "Meme Weather/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Meme\\ Weather/TestFairySDK-1.19.3",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "KHC.Meme-Weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "AD-HOC";
+				SKIP_INSTALL = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kang/Library/Autosave Information/Meme Weather/Meme Weather/Bridging.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7s armv7";
 			};
 			name = Release;
 		};
